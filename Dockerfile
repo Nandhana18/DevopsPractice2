@@ -1,3 +1,3 @@
-FROM tomcat:8.0.2-jre
-COPY target/FirstProjectDevops.jar usr/local/tomcat/webapp/FirstProjectDevops.jar
+FROM tomcat:8.0.20-jre8
+COPY target/FirstProjectDevops*.war usr/local/tomcat/webapp/FirstProjectDevops.war
 EXPOSE 8080
